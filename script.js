@@ -116,7 +116,7 @@ function getVideos() {
       });
     }
   };
-  request.open("GET", "videos.json", true);
+  request.open("GET", "./videos.json", true);
   request.send();
 }
 
